@@ -1,0 +1,20 @@
+body {
+  position: relative;
+}
+
+.hero {
+  background: url("./imgs/bg.svg") center / cover no-repeat;
+  min-height: 90vh;
+}
+
+.hero div {
+  margin-bottom: 250px;
+}
+
+h1 {
+  max-width: 600px;
+}
+
+p {
+  max-width: 700px;
+}
