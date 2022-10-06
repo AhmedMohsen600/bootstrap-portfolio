@@ -26,13 +26,35 @@ p,
   max-width: 720px;
 }
 
+section {
+  padding: 2% 0;
+}
+
 .about-card {
   margin-inline: 6rem;
+}
+
+.form-text {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 500px;
+  margin-inline: 2rem;
+  font-weight: 700;
+  color: #172B4D;
 }
 
 @media screen and (max-width: 768px) {
   .about-card {
     margin-inline: 0;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form-text {
+    width: 100%;
+    margin: 1rem auto;
   }
   
 }
