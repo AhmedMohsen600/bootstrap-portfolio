@@ -21,7 +21,7 @@ h1 {
   max-width: 600px;
 }
 
-p, 
+p,
 .lead {
   max-width: 720px;
 }
@@ -40,7 +40,7 @@ section {
   width: 500px;
   margin-inline: 2rem;
   font-weight: 700;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,5 +56,4 @@ section {
     width: 100%;
     margin: 1rem auto;
   }
-  
 }
