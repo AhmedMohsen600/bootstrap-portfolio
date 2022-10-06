@@ -21,6 +21,18 @@ h1 {
   max-width: 600px;
 }
 
-p {
-  max-width: 700px;
+p, 
+.lead {
+  max-width: 720px;
+}
+
+.about-card {
+  margin-inline: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-card {
+    margin-inline: 0;
+  }
+  
 }
